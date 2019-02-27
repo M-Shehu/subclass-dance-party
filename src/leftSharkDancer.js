@@ -1,6 +1,7 @@
 var LeftSharkDancer = function(top, left, timeBetweenSteps) {
   Dancer.call(this, top, left, timeBetweenSteps);
   this.$node.prepend('<img id="leftshark" src="src/pictures/leftshark.gif" height="250"/>');
+  this.$superNode.append(this.$node);
 };
 
 LeftSharkDancer.prototype = Object.create(Dancer.prototype);

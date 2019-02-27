@@ -1,6 +1,7 @@
 var DogDancer = function(top, left, timeBetweenSteps) {
   Dancer.call(this, top, left, timeBetweenSteps);
   this.$node.prepend('<img id="dog" src="src/pictures/dog.gif" height="170"/>');
+  this.$superNode.append(this.$node);
 };
 
 DogDancer.prototype = Object.create(Dancer.prototype);

@@ -296,8 +296,24 @@ body{
   position:absolute;
   height: auto;
   width: auto;
+  -webkit-transition: top bottom 2s;
 }
 
+.dancer-container:hover{
+  position:absolute;
+  height: auto;
+  width: auto;
+  -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to {
+      -webkit-transform: rotate(359deg);
+  }
+}
 
 
 /*

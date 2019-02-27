@@ -1,6 +1,7 @@
 var GangnamDancer = function(top, left, timeBetweenSteps) {
   Dancer.call(this, top, left, timeBetweenSteps);
   this.$node.prepend('<img id="leftshark" src="src/pictures/gangnam.gif" height="200"/>');
+  this.$superNode.append(this.$node);
 };
 
 GangnamDancer.prototype = Object.create(Dancer.prototype);
