@@ -3,14 +3,46 @@
   <head>
     <title>Object Dance Party</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
     <script src="lib/jquery.js"></script>
     <script src="src/dancer.js"></script>
     <script src="src/blinkyDancer.js"></script>
+    <script src="src/shrekDancer.js"></script>
+    <script src="src/dogDancer.js"></script>
+    <script src="src/leftSharkDancer.js"></script>
+    <script src="src/gangnamDancer.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    
   </head>
   <body>
-    <div class="topbar">
-      <span class="title">object dance party</span>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyDancer">add a blinky dancer</a>    </div>
-    <script src="src/init.js"></script>
+    <div class="topbar">      
+      <!-- <canvas id="canvas"></canvas>  
+        <script src="src/particle.js"></script> -->
+      <div id="container">
+        <span id='neon'><a href="#">
+          OBJECT
+        </a></span>
+        
+        <span id='neon'><a href="#">
+          DANK
+        </a></span>
+        
+        <span id='neon'><a href="#">
+          PARTY
+        </a></span>
+        
+      </div>
+      <nav class="nav primary-nav">
+        <ul>
+          <li><a href="#" class="addDancerButton" data-dancer-maker-function-name="BlinkyDancer">Add Chandler</a></li><!--
+          --><li><a href="#" class="addDancerButton" data-dancer-maker-function-name="ShrekDancer">Add Shrek</a></li><!--
+          --><li><a href="#" class="addDancerButton" data-dancer-maker-function-name="DogDancer">Add Dog</a></li><!--
+          --><li><a href="#" class="addDancerButton" data-dancer-maker-function-name="LeftSharkDancer">Add Left Shark</a></li><!--
+            --><li><a href="#" class="addDancerButton" data-dancer-maker-function-name="GangnamDancer">Gangnam Style</a></li>
+        </ul>
+      </nav>
+    </div>
+    <button class="lineUpButton">Line Up</button>
+    <script src="src/init.js"></script>  
   </body>
 </html>
