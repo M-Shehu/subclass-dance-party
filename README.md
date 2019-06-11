@@ -1,2 +1,9 @@
-# subclass-dance-party
-This is a project I completed as a student at [hackreactor](http://hackreactor.com). This project was worked on with a pair.
+# Subclass Dance Party
+
+## Project Description
+App to radomly generate dancers unto the screen.
+
+
+## License
+
+This app is MIT licensed.
